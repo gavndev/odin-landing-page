@@ -1,4 +1,79 @@
-.navbar{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-logo{
+    color: #fff;
+    font-size: 24px;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    outline: auto;
+}
+
+.navbar-link{
+    color: #fff;
+    font-size: 1.1rem;
+    margin: 0 10px;
+}
+
+.navbar-link--container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+
+/**********************
+      Hero Section 
+***********************/
+
+
+#hero {
+    background-color: #1F2937;
+}
+
+.hero-mainContent{
+    display: flex;
+    align-items: center;
+    outline: auto;
+}
+
+.hero-placeholderSection{
+    width: 50%;
+    outline: auto;
+}
+
+.hero-placeholder{
+    text-align: center;
+    color: #fff;
+    margin: 40px;
+    padding: 100px;
+    background-color: hsl(0, 1%, 50%);
+}
+
+.hero-mainTextContent{
+    width: 50%;
+    outline: auto;
+    padding: 50px;
+    color: #fff;
+}
+
+.hero-title{
+    color: #fff;
+    font-size: 48px;
+}
+
+.hero-subtitle{
+    color: #E5e7eb;
+    font-size: 18px;
 }
