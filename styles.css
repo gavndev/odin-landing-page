@@ -4,76 +4,165 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', 'Roboto', sans-serif;
 }
 
-.header-logo{
-    color: #fff;
-    font-size: 24px;
+
+.navbar-logo{
+    width: 3em;
+    height: auto;
 }
-.navbar
-{
+
+.section {
+    width: 100%;
+    padding: 40px 10%; 
+}
+ 
+.section-textContent {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    outline: auto;
+    flex-direction: column;
 }
 
-.navbar-link{
-    color: #fff;
-    font-size: 1.1rem;
-    margin: 0 10px;
+.section-textContent p{
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    font-style: italic;
 }
-
-.navbar-link--container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-/**********************
-      Hero Section 
-***********************/
-
-
-#hero {
-    background-color: #1F2937;
-}
-
-.hero-mainContent{
-    display: flex;
-    align-items: center;
-    outline: auto;
-}
-
-.hero-placeholderSection{
-    width: 50%;
-    outline: auto;
-}
-
-.hero-placeholder{
-    text-align: center;
-    color: #fff;
-    margin: 40px;
-    padding: 100px;
-    background-color: hsl(0, 1%, 50%);
-}
-
-.hero-mainTextContent{
-    width: 50%;
-    outline: auto;
-    padding: 50px;
-    color: #fff;
-}
-
-.hero-title{
-    color: #fff;
-    font-size: 48px;
+ 
+.hero-titleSpecial{
+    color: rgb(45, 108, 235);
+    text-shadow: 0px 0px 20px rgb(100, 146, 239);
 }
 
 .hero-subtitle{
-    color: #E5e7eb;
-    font-size: 18px;
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: solid underline rgb(45, 108, 235);
+    margin-bottom: 20px;
 }
+
+.hero-buttonLinks{
+    display: flex;
+    gap: 20px;
+}
+
+.hero-subtext--container{
+    margin-bottom: 20px;
+}
+
+.hero-button{
+    padding: 10px 20px;
+    background-color: rgb(45, 108, 235);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.hero-button:hover{
+    background-color: rgb(100, 146, 239);
+    transform: scale(1.05);
+}
+
+.hero-button-inverse{
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(45, 108, 235);
+    border: 2px solid rgb(45, 108, 235);
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.hero-button-inverse:hover{
+    background-color: rgb(45, 108, 235);
+    color: white;
+    transform: scale(1.05);
+}
+
+ .navbar{
+    background-color: #ffffff; 
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .navbar-link--container{
+    display: flex;
+    gap: 20px;
+ }
+
+ .navbar-link{
+    color: #333;
+    transition: all 0.3s;
+ }
+
+ .navbar-link:hover{
+    color: rgb(45, 108, 235);
+    font-weight: 700;
+    transform: scale(1.1);
+ }
+
+ h1{
+    font-size: 3em;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+ }
+ 
+ .intro {
+    background-color: #ffffff; 
+ }
+ 
+ .cta {
+    background-color: #333; 
+    color: white; 
+ }
+
+.navbar{
+    background-color: #ffffff; 
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .navbar-link{
+    color: #333;
+    font-weight: 500;
+ }
+
+ .navbar-link--container{
+    display: flex;
+    gap: 20px;
+ }
+
+ h1{
+    font-size: 3em;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+ }
+ 
+ .intro {
+    background-color: #ffffff; 
+ }
+ 
+ .cta {
+    background-color: #333; 
+    color: white; 
+ }
+
+
+ 
+ .testimonial {
+    background-color: #e0e0e0; 
+ }
+ 
