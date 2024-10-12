@@ -7,7 +7,6 @@
     font-family: 'Inter', 'Roboto', sans-serif;
 }
 
-
 .navbar-logo{
     width: 3em;
     height: auto;
@@ -16,6 +15,10 @@
 .section {
     width: 100%;
     padding: 40px 10%; 
+}
+
+.feature{
+    background-color: #f0f0f0;
 }
  
 .section-textContent {
@@ -66,6 +69,7 @@
 .hero-button:hover{
     background-color: rgb(100, 146, 239);
     transform: scale(1.05);
+    font-weight: 700;
 }
 
 .hero-button-inverse{
@@ -75,7 +79,7 @@
     border: 2px solid rgb(45, 108, 235);
     border-radius: 5px;
     font-size: 1.2em;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
     transition: all 0.3s;
 }
@@ -86,45 +90,20 @@
     transform: scale(1.05);
 }
 
- .navbar{
-    background-color: #ffffff; 
-    padding: 20px 40px;
+.hero-image-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
- }
-
- .navbar-link--container{
-    display: flex;
-    gap: 20px;
- }
-
- .navbar-link{
-    color: #333;
-    transition: all 0.3s;
- }
-
- .navbar-link:hover{
-    color: rgb(45, 108, 235);
-    font-weight: 700;
-    transform: scale(1.1);
- }
-
- h1{
-    font-size: 3em;
-    font-weight: 700;
-    color: #333;
+    margin-top: 20px;
     margin-bottom: 20px;
- }
- 
- .intro {
-    background-color: #ffffff; 
- }
- 
- .cta {
-    background-color: #333; 
-    color: white; 
- }
+
+}
+
+.hero-image{
+    width: 70%;
+    height: auto;
+    outline: auto;
+}
 
 .navbar{
     background-color: #ffffff; 
@@ -132,37 +111,84 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
+}
 
- .navbar-link{
-    color: #333;
-    font-weight: 500;
- }
-
- .navbar-link--container{
+.navbar-link--container{
     display: flex;
     gap: 20px;
- }
+}
 
- h1{
+.navbar-link{
+    color: #333;
+    transition: all 0.3s;
+}
+
+.navbar-link:hover{
+    color: rgb(45, 108, 235);
+    font-weight: 700;
+    transform: scale(1.1);
+}
+
+h1{
     font-size: 3em;
     font-weight: 700;
     color: #333;
     margin-bottom: 20px;
- }
+}
+
+h2{
+    font-size: 2em;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
  
- .intro {
+.intro {
     background-color: #ffffff; 
- }
+    display: flex;
+}
  
- .cta {
+.cta {
     background-color: #333; 
     color: white; 
- }
+}
+
+.navbar{
+    background-color: #ffffff; 
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-link{
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar-link--container{
+    display: flex;
+    gap: 20px;
+}
+ 
+.intro {
+    background-color: #ffffff; 
+}
+ 
+.cta {
+    background-color: #333; 
+    color: white; 
+}
 
 
  
- .testimonial {
+.testimonial {
     background-color: #e0e0e0; 
- }
+}
  
